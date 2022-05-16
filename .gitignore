@@ -2,3 +2,12 @@
 venv
 *.pyc
 output/feeds/
+.env-photo/
+.photo/
+uploader/
+env/
+.env/
+output/
+__pycache__/
+.DS_Store
+*.bak
