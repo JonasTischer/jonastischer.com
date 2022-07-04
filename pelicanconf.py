@@ -1,34 +1,12 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-import pelican
+AUTHOR = 'Jonas Tischer'
+SITENAME = 'jonastischer.com'
+SITEURL = ''
 
-AUTHOR = "Jonas Tischer"
-SITENAME = "Jonas Tischer"
-SITEURL = "jonastischer.com"
-SITE_DESCRIPTION = (
-    "My personal website. Here, you can read my blog posts, and learn about my"
-    " projects. I write about data science, AI, programming, business, and"
-    " other topics. "
-)
-# TODO
-SITELOGO = "images/logo.png"
-PATH = "content"
-TIMEZONE = "Europe/Berlin"
-DEFAULT_LANG = "en"
+PATH = 'content'
 
-PAGE_URL = "{slug}/"
-PAGE_SAVE_AS = "{slug}.html"
-DEFAULT_CATEGORY = "blog"
-ARTICLE_URL = "{category}/{slug}.html"
-ARTICLE_SAVE_AS = "{category}/{slug}.html"
-ARTICLE_EXCLUDES = ["html"]
-CATEGORY_URL = "category/{slug}.html"
-CATEGORY_SAVE_AS = "category/{slug}.html"
-USE_FOLDER_AS_CATEGORY = False
+TIMEZONE = 'Europe/Berlin'
 
-# SEO
-PELICAN_VERSION = pelican.__version__
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -36,53 +14,18 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-FEED_ALL_ATOM = "feed.xml"
-FEED_FILTER = {
-    "feed.xml": {
-        "exclude.categories": ["photos"],
-    }
-}
 
-# NO EXTRAS
-TAGS_SAVE_AS = None
-ARCHIVES_SAVE_AS = None
-CATEGORIES_SAVE_AS = None
-AUTHORS_SAVE_AS = None
+# Blogroll
+LINKS = (('Pelican', 'https://getpelican.com/'),
+         ('Python.org', 'https://www.python.org/'),
+         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+         ('You can modify those links in your config file', '#'),)
 
-# pagination
+# Social widget
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
+
 DEFAULT_PAGINATION = False
 
-# extra paths
-STATIC_PATHS = [
-    "images",
-    "pdfs",
-    "html",
-]
-# MARKDOWN
-MARKDOWN = {
-    "extensions": [
-        "markdown.extensions.toc",
-        "markdown.extensions.fenced_code",
-        "markdown.extensions.codehilite",
-    ]
-}
-
-# PLUGINS
-PLUGIN_PATHS = ["plugins"]
-PLUGINS = [
-    "pelican.plugins.sitemap",
-    "pelican.plugins.simple_footnotes",
-    "pelican.plugins.feed_filter",
-]
-SITEMAP = {
-    "exclude": ["archives.html", "author/", "category/"],
-    "format": "xml",
-    "priorities": {"articles": 0.9, "indexes": 0.5, "pages": 0.9},
-    "changefreqs": {
-        "articles": "hourly",
-        "indexes": "hourly",
-        "pages": "hourly",
-    },
-}
-
-THEME = "theme/"
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
