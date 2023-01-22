@@ -11,7 +11,7 @@ SITE_DESCRIPTION = (
 )
 # TODO
 PATH = "content"
-TIMEZONE = "Europe/Copenhagen"
+TIMEZONE = "Europe/Berlin"
 DEFAULT_LANG = "en"
 THEME = "./theme"
 PAGE_URL = "{slug}/"
@@ -34,11 +34,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_ALL_ATOM = "feed.xml"
-FEED_FILTER = {
-    "feed.xml": {
-        "exclude.categories": ["photos"],
-    }
-}
 
 # NO EXTRAS
 TAGS_SAVE_AS = None
