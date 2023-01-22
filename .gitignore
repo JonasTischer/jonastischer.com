@@ -1,7 +1,3 @@
-./venv
-venv
-*.pyc
-output/feeds/
 .env-photo/
 .photo/
 uploader/
@@ -11,4 +7,4 @@ output/
 __pycache__/
 .DS_Store
 *.bak
-.vscode/
+venv/
