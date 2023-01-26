@@ -46,12 +46,10 @@ DEFAULT_PAGINATION = False
 
 # extra paths
 STATIC_PATHS = [
-    "html",
     "extra/favicons",
 ]
 EXTRA_PATH_METADATA = {
     "extra/favicons/": {"path": "favicons/"},
-    "html/StateOfVim.html": {"path": "StateOfVim.html"},
 }
 
 # MARKDOWN
