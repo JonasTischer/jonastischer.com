@@ -9,11 +9,11 @@ Welcome to my personal blog!
 
 My name is Jonas and I am a technologist with a passion for exploring the intersection of Machine Learning, Data, Software Engineering, and People. Born and raised in Germany, I am currently living the digital nomad lifestyle and exploring different cultures.
 
-I have a diverse background insSoftware consulting, automotive, and startups, with a focus on helping companies harness the full potential of data and AI to build superior products. 
+I have a diverse background in software consulting, automotive, and startups, with a focus on helping companies harness the full potential of data and AI to build superior products. 
 
 My education and background have also greatly influenced my work, having studied at the University of Mannheim, National Chiao Tung University, and the Beijing Foreign Studies University.
 
-When I am not working, you can find me learning Chinese, writing code, reading, or hiking. 
+When I am not working, you can find me learning Chinese, writing, reading, or hiking. 
 
 If you'd like to know more about my career, please check out my [LinkedIn](https://www.linkedin.com/in/jonastischer/) profile. 
 
