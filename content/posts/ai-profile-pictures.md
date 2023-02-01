@@ -3,8 +3,11 @@ Date: 2023-02-01 22:35
 Category: blog
 
 
-Recently, I realized the need for an updated profile picture on my LinkedIn.
-I didn't want to go to a professional photographer. Too much effort and a chunk of money just for a few digital pics. But then I had a lightbulb moment. With all the buzz surrounding generative AI and algorithms that can produce realistic images like [DALL-E 2](https://openai.com/dall-e-2/), I figured it must be possible to "generate" some professional shots for my LinkedIn profile or cover photos for my resume. 
+Recently, I realized the need for an updated profile picture on my LinkedIn but I didn't want to go to a professional photographer. 
+
+Too much effort and a chunk of money just for a few digital pics. Then I had a lightbulb moment. 
+
+With all the buzz surrounding generative AI and algorithms that can produce realistic images like [DALL-E 2](https://openai.com/dall-e-2/), I figured it must be possible to "generate" some professional shots for my LinkedIn profile or cover photos for my resume. 
 
 I was super pumped and did a quick Google search to see if this service existed. As with all my great ideas, someone had already thought of it. First, I found a few services that just touched up existing pics with enhancements like background removal. I stumbled upon two services that seemed to fit the bill - they promised to generate AI-powered profile pics.
 
