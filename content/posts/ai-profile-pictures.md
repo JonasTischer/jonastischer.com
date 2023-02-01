@@ -55,6 +55,7 @@ In the following, I will present a subjective selection of 9 photos from each se
   <img src="{static}/images/PFPMaker/pfpmaker_side_profile.jpeg" alt="Image 8" style="width: 33.33%;">
   <img src="{static}/images/PFPMaker/pfpmaker_superman.jpeg" alt="Image 9" style="width: 33.33%;">
 </div>
+*Right click on the image and press "Open Image in New Tab" to see in better quality*
 
 ### ProfilePictureAI
 
@@ -69,6 +70,7 @@ In the following, I will present a subjective selection of 9 photos from each se
   <img src="{static}/images/ProfilePictureAi/8.png" alt="Image 8" style="width: 33.33%;">
   <img src="{static}/images/ProfilePictureAi/9.png" alt="Image 9" style="width: 33.33%;">
 </div>
+*Right click on the image and press "Open Image in New Tab" to see in better quality*
 
 ### Comparison
 
