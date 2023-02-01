@@ -60,15 +60,15 @@ In the following, I will present a subjective selection of 9 photos from each se
 ### ProfilePictureAI
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="{static}/images/ProfilePictureAi/1.png" alt="Image 1" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/2.png" alt="Image 2" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/3.png" alt="Image 3" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/4.png" alt="Image 4" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/5.png" alt="Image 5" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/6.png" alt="Image 6" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/7.png" alt="Image 7" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/8.png" alt="Image 8" style="width: 33.33%;">
-  <img src="{static}/images/ProfilePictureAi/9.png" alt="Image 9" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/1.png" alt="Image 1" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/2.png" alt="Image 2" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/3.png" alt="Image 3" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/4.png" alt="Image 4" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/5.png" alt="Image 5" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/6.png" alt="Image 6" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/7.png" alt="Image 7" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/8.png" alt="Image 8" style="width: 33.33%;">
+  <img src="{static}/images/ProfilePictureAI/9.png" alt="Image 9" style="width: 33.33%;">
 </div>
 *Right click on the image and press "Open Image in New Tab" to see in better quality*
 
