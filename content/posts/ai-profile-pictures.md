@@ -2,7 +2,7 @@
 Title: A Digital Makeover: AI-Generated LinkedIn Profile Pictures
 Date: 2023-01-31 22:35
 Category: blog
-thumbnail: images/ProfilePictureAI/9.png
+thumbnail: content/images/ProfilePictureAI/9.png
 ---
 
 Recently, I realized the need for an updated profile picture on my LinkedIn but I didn't want to go to a professional photographer. 
