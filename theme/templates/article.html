@@ -1,15 +1,6 @@
 {% extends "base.html" %} {% block title %}{{ article.title }} - {{ SITENAME
 }}{% endblock %} {% block content %} {% if article.category == 'blog' %}
 <h1 class="article-title">{{ article.title }}</h1>
+<p><i>{{ article.date | strftime('%B %-d, %Y') }}</i></p>
 {{ article.content }}
-<p><i>{{ article.date | strftime('%B %-d, %Y') }}</i></p>
-{% elif article.category == 'photos' %}
-<center>
-  <img style="max-height: 75vh" src="{{ article.photo_url }}" alt="Photo" />
-</center>
-<p>{{ article.content }}</p>
-{% if article.location != 'None' %}
-<p><i>Taken in {{ article.location }}</i></p>
-{% endif %}
-<p><i>{{ article.date | strftime('%B %-d, %Y') }}</i></p>
 {% endif %} {% endblock %}
