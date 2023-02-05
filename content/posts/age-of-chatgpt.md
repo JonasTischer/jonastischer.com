@@ -12,7 +12,7 @@ I remember a few years ago, when I once got asked in a job interview what my gre
 
 With already over 100 million users, ChatGPT has become the fastest adopted app on the internet, and it's easy to see why. It offers us a new level of convenience, allowing us to access information and get answers to our questions faster than ever before. 
 
-However, this new technology also brings new challenges. The abundance of information available on the internet can be overwhelming, with a lot of misinformation and false information floating around. The key is to learn how to navigate this newfound wealth of information, develop an intuition for trustworthy sources, and exercise critical thinking when evaluating the information.
+However, this new technology also brings new challenges. The abundance of information available on the internet can be overwhelming, with a lot of misinformation and false information floating around. The key is to learn how to navigate this newfound wealth of information, develop an intuition for valuable prompts, and exercise critical thinking when evaluating the information.
 
 As with any new technology, some people will embrace it, while others will be left behind. Those who are able to use LLMs to their advantage will see increased productivity, better health, and wealth. On the other hand, those who are unable to keep up with the changing times will be marginalized and left behind.
 
