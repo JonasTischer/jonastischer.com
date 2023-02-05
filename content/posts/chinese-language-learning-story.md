@@ -1,5 +1,5 @@
 ---
-Title: My Chinese Language Adventure: Reflections on the Path to Fluency
+Title: My journey of learning Chinese: A Reflection
 Date: 2023-02-5 21:39
 Category: blog
 ---
