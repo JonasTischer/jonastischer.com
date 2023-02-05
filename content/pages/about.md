@@ -13,7 +13,7 @@ I have a diverse background in software consulting, automotive, and startups, wi
 
 My education and background have also greatly influenced my work, having studied at the University of Mannheim, National Chiao Tung University, and the Beijing Foreign Studies University.
 
-When I am not working, you can find me learning Chinese, writing, reading, or hiking. 
+When I am not working, you can find me [learning Chinese](/blog/my-journey-of-learning-chinese-a-reflection.html), writing, reading, or hiking. 
 
 If you'd like to know more about my career, please check out my [LinkedIn](https://www.linkedin.com/in/jonastischer/) profile. 
 

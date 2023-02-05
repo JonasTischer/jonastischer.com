@@ -50,7 +50,7 @@ I will share the study resources and habits that have helped me stay on track in
 
 *"So, have you become fluent in Chinese now?"*
 
-The answer is a **Hell NO"**. Learning Chinese is indeed a long-term commitment and fluency is a subjective concept. My ultimate goal is to use Chinese in a professional setting, and I still have a long way to go.
+The answer is a **Hell NO**. Learning Chinese is indeed a long-term commitment and fluency is a subjective concept. My ultimate goal is to use Chinese in a professional setting, and I still have a long way to go.
 
 However, I have now reached a level where I can read books, watch series, and communicate with locals with a degree of enjoyment, without feeling overly frustrated. I consider this a significant achievement and I am proud of my progress so far.
 
