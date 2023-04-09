@@ -5,7 +5,7 @@ import pelican
 
 AUTHOR = "Jonas Tischer"
 SITENAME = "Jonas Tischer"
-SITEURL = ""
+SITEURL = "https://jonastischer.com"
 SITE_DESCRIPTION = (
     "My personal website. "
 )
