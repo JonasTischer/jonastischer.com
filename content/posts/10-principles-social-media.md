@@ -2,7 +2,7 @@
 title: 10 Principles for using Social Media responsibly
 date: 2023-04-09 14:07
 category: blog
-thumbnail: content/images/thumbnail.png
+thumbnail: images/thumbnail.png
 ---
 
 <img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" alt="Social Media Consumption Meme" style="max-width:100%;">
