@@ -10,7 +10,7 @@ Think about how life changed with the advent of the Internet and Google. Can you
 
 I remember a few years ago, when I once got asked in a job interview what my greatest skill was, I answered "I'm great at Googling". It may sound simple, but being able to navigate the internet, find relevant information quickly, and effectively formulate search queries is one of the most important skills in today's world and still greatly underrated.
 
-With already over 100 million users, ChatGPT has become the fastest adopted app on the internet, and it's easy to see why. It offers us a new level of convenience, allowing us to access information and get answers to our questions faster than ever before. 
+With already over 100 million users, ChatGPT has become the fastest adopted app on the internet, and it's easy to see why. It offers us a new level of convenience, allowing us to access information and get answers to our questions faster than ever before.
 
 However, this new technology also brings new challenges. The abundance of information available on the internet can be overwhelming, with a lot of misinformation and false information floating around. The key is to learn how to navigate this newfound wealth of information, develop an intuition for valuable prompts, and exercise critical thinking when evaluating the information.
 
