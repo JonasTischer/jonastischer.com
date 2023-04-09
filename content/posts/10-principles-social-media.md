@@ -8,7 +8,7 @@ As I recently joined Instagram in early 2023, I realized that my consumption has
 
 ## 1. Define the purpose of your social media usage
 
-<!-- When using any social media, it's crucial to have a clear purpose in mind. For example, on Instagram, I use it to stay in contact with friends and improve my real-life connections with people I know. As I travel a lot and my friends are scattered around the world, I like to share my travel plans in case someone will be around or can provide useful information about a particular place. Twitter, on the other hand, is a place where I get the latest information about Entrepreneurship and AI. -->
+When using any social media, it's crucial to have a clear purpose in mind. For example, on Instagram, I use it to stay in contact with friends and improve my real-life connections with people I know. As I travel a lot and my friends are scattered around the world, I like to share my travel plans in case someone will be around or can provide useful information about a particular place. Twitter, on the other hand, is a place where I get the latest information about Entrepreneurship and AI.
 
 ## 2. Cultivate meaningful interactions
 
