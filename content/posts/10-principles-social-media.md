@@ -2,12 +2,14 @@
 title: 10 Principles for using Social Media responsibly
 date: 2023-04-09 14:07
 category: blog
-thumbnail: images/thumbnail.png
+thumbnail: images/SocialMediaPrinciples/thumbnail.jpg
 ---
 
 <img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" alt="Social Media Consumption Meme" style="max-width:100%;">
 
-As I recently joined Instagram in early 2023, I realized that my consumption has gone up significantly and I need strategies for using social media in a more responsible way. Social media has become an integral part of my live, and it's essential to approach it mindfully to make the most out of it. After careful consideration, I have come up with my own 10 principles for using social media, and I would like to share them with you.
+Recently joining Instagram in early 2023 has made me realize how my social media consumption has increased significantly. This realization has prompted me to reflect on my social media usage and develop strategies for using it in a more responsible way.
+
+As someone who has always been critical of social media, despite being a fan of new technologies, I have been cautious when trying out new social media apps. I believe in thoroughly analyzing their impact and assessing the value they can provide before diving in. Only with clear usage guidelines in mind, have I been willing to explore and make use of social media platforms. This introspection has led me to develop 10 principles for using social media responsibly, which I am excited to share with you.
 
 ## 1. Define the purpose of your social media usage
 
@@ -19,13 +21,11 @@ Instead of mindlessly consuming content, focus on cultivating meaningful interac
 
 ## 3. Consume for learning, not entertainment
 
-Instead of using social media purely for entertainment, consider using it as a tool for learning. Approach social media with a clear purpose in mind, such as learning something new, and use it as a source of valuable information and knowledge.
+Instead of using social media purely for entertainment, consider using it as a tool for learning. Approach social media with a clear purpose in mind, such as **learning something new**, and use it as a source of valuable information and knowledge.
 
 ## 4. Monitor your consumption
 
 It's important to keep track of how much time you spend on social media. Set up a system that helps you analyze your social media usage and be mindful of the time you spend on it.
-
-<img src="{static}/images/SocialMediaPrinciples/social-media-consumption.jpeg" alt="Social Media Consumption" style="max-width:100%;">
 
 ## 5. Set up strict time limits
 
@@ -33,23 +33,23 @@ While social media can be valuable, it's important to recognize that the maximum
 
 ## 6. Be mindful about the content you consume
 
-The content you consume on social media has a significant influence on your thoughts, emotions, and behaviors. Be mindful of who you follow, what you subscribe to, and the content you consume regularly. Social media companies are a billion-dollar business because they know how to influence our behavior and you are not immune to being influenced. Regularly review who you are following and whether the content is providing value to you or just trying to sell you a product.
+The content you consume on social media has a significant influence on your thoughts, emotions, and behaviors. Be mindful of who you follow, what you subscribe to, and the content you consume regularly. Social media companies are a billion-dollar business because they know how to influence our behavior and **you are not immune to being influenced**. Regularly review who you are following and whether the content is providing value to you or just trying to sell you a product.
 
 ## 7. Share value-added content
 
-When sharing content on social media, it's crucial to think about the platform and your audience. Be mindful of other people's time and attention, and only share things that you believe will provide value for others. For example, think twice before you share pictures of your food on Instagram (unless you are running ads for a restaurant).
+When sharing content on social media, it's crucial to think about the platform and your audience. **Be mindful of other people's time and attention**, and only share things that you believe will provide value for others. For example, think twice before you share pictures of your food on Instagram (unless you are running ads for a restaurant).
 
 ## 8. Be Authentic and Genuine
 
-Authenticity is key when it comes to social media. It's important to be genuine and true to yourself in your interactions, posts, and comments. Avoid portraying an exaggerated or false version of yourself or your life. Authenticity builds trust and meaningful connections with others, and it allows for more genuine and fulfilling interactions on social media and in real life. Share your real experiences, opinions, and emotions, and avoid succumbing to the pressure of presenting a perfect or filtered version of yourself.
+Authenticity is key when it comes to social media. It's important to be genuine and true to yourself in your interactions, posts, and comments. **Avoid portraying an exaggerated or false version** of yourself or your life. Authenticity builds trust and meaningful connections with others, and it allows for more genuine and fulfilling interactions on social media and in real life. **Share your real experiences**, opinions, and emotions, and avoid succumbing to the pressure of presenting a perfect or filtered version of yourself.
 
 ## 9. Stay positive
 
-Whether you are creating content or just consuming, you will inevitably come across negative comments, haters, trolls, or unhappy people on social media. It's essential to stay away from engaging with negativity and not get drawn into arguments or debates. Remember that not everyone will agree with your opinions, and it's okay to have different perspectives.
+Whether you are creating content or just consuming, you will inevitably come across negative comments, haters, trolls, or unhappy people on social media. It's essential to **stay away from engaging with negativity** and not get drawn into arguments or debates. Remember that not everyone will agree with your opinions, and it's okay to have different perspectives.
 
 ## 10. Practice Digital Detox
 
-Social media can be addictive and overwhelming, leading to potential negative impacts on mental health and well-being. It's crucial to practice digital detox and self-care to maintain a healthy relationship with social media. Set designated times for disconnecting from social media, such as taking breaks during the day, implementing screen-free hours, or unplugging during weekends or vacations
+Social media can be addictive and overwhelming, leading to potential negative impacts on mental health and well-being. It's crucial to practice digital detox and self-care to maintain a healthy relationship with social media. Set designated times for disconnecting from social media, such as taking breaks during the day, **implementing screen-free hours**, especially **before going to bed** or unplugging during weekends or vacations.
 
 ## Conclusion
 
