@@ -5,8 +5,7 @@ Category: blog
 thumbnail: content/images/SocialMediaPrinciples/image.jpg
 ---
 
-<img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" style="position:absolute; width:100%; height:100%;">
-
+<img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" alt="Social Media Consumption Meme" style="max-width:100%;">
 
 As I recently joined Instagram in early 2023, I realized that my consumption has gone up significantly and I need strategies for using social media in a more responsible way. Social media has become an integral part of my live, and it's essential to approach it mindfully to make the most out of it. After careful consideration, I have come up with my own 10 principles for using social media, and I would like to share them with you.
 
@@ -26,7 +25,7 @@ Instead of using social media purely for entertainment, consider using it as a t
 
 It's important to keep track of how much time you spend on social media. Set up a system that helps you analyze your social media usage and be mindful of the time you spend on it.
 
-<img src="{static}/images/SocialMediaPrinciples/social-media-consumption.jpeg" style="position:absolute; width:100%; height:100%;">
+<img src="{static}/images/SocialMediaPrinciples/social-media-consumption.jpeg" alt="Social Media Consumption" style="max-width:100%;">
 
 ## 5. Set up strict time limits
 
