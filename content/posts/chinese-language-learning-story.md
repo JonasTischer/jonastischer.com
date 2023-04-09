@@ -1,7 +1,8 @@
 ---
-Title: My journey of learning Chinese: A Reflection
-Date: 2023-02-5 21:39
-Category: blog
+title: My journey of learning Chinese: A Reflection
+date: 2023-02-5 21:39
+category: blog
+thumbnail: images/50/openai_2.png
 ---
 
 In 2019, I began my Chinese language learning journey with the ambition becoming fluent in the language and starting my career in China. What started as a goal has since transformed into a passionate hobby, constantly pushing me out of my comfort zone and exposing me to a world of unique experiences. In this article, I'll take you back to the beginning of my journey, how I got to live in China, the lessons I've gained along the way, and my plans for the future.
@@ -20,7 +21,7 @@ Upon my return to Germany, I was determined to pursue my goal of learning Chines
 
 When I set myself the goal to learn Chinese, I quickly realized that I would have to go to China in order to properly immerse myself into the culture and learn the language effectively. Just learning in my spare time from Germany seemed tedious and meaningless without a clear outlook on when and how I could apply the language. Therefore, I started looking into ways to get to China.
 
-Thankfully, Germany has a great system of scholarships for various study purposes, and my search paid off when I came across a scholarship program that would send people to China for 16 months. The program offered a unique opportunity to study Chinese language full-time at the Beijing Foreign Languages University for 10 months and with a practical part of working in China for 6 months afterwards. 
+Thankfully, Germany has a great system of scholarships for various study purposes, and my search paid off when I came across a scholarship program that would send people to China for 16 months. The program offered a unique opportunity to study Chinese language full-time at the Beijing Foreign Languages University for 10 months and with a practical part of working in China for 6 months afterwards.
 
 Due to my clear ambitions and desire to go to China I was able to get a spot in this highly competitive scholarship program and I was thrilled when I heard that I will have the chance to go to China.
 
@@ -46,7 +47,7 @@ I will share the study resources and habits that have helped me stay on track in
 
 - **It's Not Always Fun**: Learning Chinese, especially the characters, can be challenging and requires a lot of effort. Studying at home, in particular, can be lonely, boring, and unmotivating at times. But it's important to remember that this is normal and to keep pushing forward.
 
-## Current level and goals 
+## Current level and goals
 
 *"So, have you become fluent in Chinese now?"*
 
@@ -63,7 +64,7 @@ Until then, I am content with my slow but steady progress day by day.
 
 I believe that learning any language is a highly enriching hobby that I want to continue pursuing throughout my life. It has become such a fundamental part of my routine that I don't want to give it up.
 
-However, learning Chinese has been a particularly challenging experience for me. There have been moments when I questioned whether it was worth all the effort. But then I think about all the positive experiences that Chinese has brought me. 
+However, learning Chinese has been a particularly challenging experience for me. There have been moments when I questioned whether it was worth all the effort. But then I think about all the positive experiences that Chinese has brought me.
 
 I've made new friends, both Chinese and non-Chinese, who share similar interests. It has opened up new doors and valuable networks. I've been exposed to an entirely new world of information, resources, people, and apps that have expanded my perspectives on many aspects of life.
 

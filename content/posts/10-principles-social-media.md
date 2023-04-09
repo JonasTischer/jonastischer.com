@@ -1,11 +1,11 @@
 ---
-Title: 10 Principles for using Social Media responsibly
-Date: 2023-04-09 14:07
-category: article
-thumbnail: content/images/SocialMediaPrinciples/thumbnail.jpg
+title: 10 Principles for using Social Media responsibly
+date: 2023-04-09 14:07
+category: blog
+thumbnail: content/images/thumbnail.png
 ---
 
-![Social Media Meme](/images/SocialMediaPrinciples/social-media-meme.png)
+<img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" alt="Social Media Consumption Meme" style="max-width:100%;">
 
 As I recently joined Instagram in early 2023, I realized that my consumption has gone up significantly and I need strategies for using social media in a more responsible way. Social media has become an integral part of my live, and it's essential to approach it mindfully to make the most out of it. After careful consideration, I have come up with my own 10 principles for using social media, and I would like to share them with you.
 
