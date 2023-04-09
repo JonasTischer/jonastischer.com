@@ -1,14 +1,18 @@
 ---
-Title: My 10 Principles for using Social Media responsibly
+Title: 10 Principles for using Social Media responsibly
 Date: 2023-04-09 14:07
 Category: blog
+thumbnail: content/images/SocialMediaPrinciples/image.jpg
 ---
+
+<img src="{static}/images/SocialMediaPrinciples/social-media-meme.png" style="position:absolute; width:100%; height:100%;">
+
 
 As I recently joined Instagram in early 2023, I realized that my consumption has gone up significantly and I need strategies for using social media in a more responsible way. Social media has become an integral part of my live, and it's essential to approach it mindfully to make the most out of it. After careful consideration, I have come up with my own 10 principles for using social media, and I would like to share them with you.
 
 ## 1. Define the purpose of your social media usage
 
-When using any social media, it's crucial to have a clear purpose in mind. For example, on Instagram, I use it to stay in contact with friends and improve my real-life connections with people I know. As I travel a lot and my friends are scattered around the world, I like to share my travel plans in case someone will be around or can provide useful information about a particular place. Twitter, on the other hand, is a place where I get the latest information about Entrepreneurship and AI.
+When using any social media, it's crucial to have a clear purpose in mind. For example, on **Instagram**, I use it to stay in contact with friends and improve my real-life connections with people I know. As I travel a lot and my friends are scattered around the world, I like to **share my travel plans** in case someone will be around or can provide useful information about a particular place. **Twitter**, on the other hand, is a place where I get the latest information about **Entrepreneurship** and AI.
 
 ## 2. Cultivate meaningful interactions
 
@@ -21,6 +25,8 @@ Instead of using social media purely for entertainment, consider using it as a t
 ## 4. Monitor your consumption
 
 It's important to keep track of how much time you spend on social media. Set up a system that helps you analyze your social media usage and be mindful of the time you spend on it.
+
+<img src="{static}/images/SocialMediaPrinciples/social-media-consumption.jpeg" style="position:absolute; width:100%; height:100%;">
 
 ## 5. Set up strict time limits
 
