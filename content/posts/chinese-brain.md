@@ -1,5 +1,5 @@
 ---
-Title: Introducing Chinese Brain: The Ultimate AI-Powered Language Learning Tool
+Title: Introducing Chinese Brain: An AI-Powered Language Learning Tool
 Date: 2023-04-16 10:48
 Category: blog
 ---
