@@ -1,7 +1,7 @@
 ---
-Title: Introducing Chinese Brain: An AI-Powered Language Learning Tool
-Date: 2023-04-16 10:48
-Category: blog
+title: Introducing Chinese Brain: An AI-Powered Language Learning Tool
+date: 2023-04-16 10:48
+category: blog
 ---
 
 As someone who has been learning Chinese for over four years, I have realized that I still lack the ideal tool that keeps me engaged in continuing my Chinese studies. In this article, I would like to sketch out the idea for **Chinese Brain**, the ultimate AI-powered learning tool, which I would describe as a spaced repetition system (SRS) like system combined with immersive content tailored to your level.
