@@ -26,17 +26,17 @@ While Github Copilot is fantastic for autocompletion, ChatGPT takes things a ste
 
 Numerous extensions for Visual Studio Code integrate ChatGPT seamlessly, and I am currently using the ChatGPT - Genie AI extension since it seems to be the most popular at the moment.
 
-![[Pasted image 20230424163022.png]]
+<img src="{static}/images/AiTools/genie.png" alt="Genie Extension" style="max-width:100%;">
 
 This extension incorporates a chat window into VSC, and it provides many commands out of the box. You can highlight some code and right-click it to display the commands.
 
-![[Pasted image 20230424163140.png]]
+<img src="{static}/images/AiTools/genie_options.png" alt="Genie Extension Commands" style="max-width:100%;">
 
 One feature I particularly like is the ability to add tests to code. Since I believe testing is critical, particularly with AI-generated code, this function makes my life much simpler.
 
 After selecting the code and choosing a prompt, the output is displayed on the left in a format that is already formatted for easy copying and pasting at the correct position. This saves a significant amount of time that would be necessary when using the ChatGPT UI.
 
-![[Pasted image 20230424163459.png]]
+<img src="{static}/images/AiTools/genie_output.png" alt="Genie Extension Output Sidebar" style="max-width:100%;">
 
 I've personally discovered that custom ChatGPT prompts are especially useful for tasks like code review and grading. For example, I can use a prompt to review code and provide suggestions for improvement, and ChatGPT will generate a well-formatted markdown file with my recommendations. Here is an example prompt:
 
