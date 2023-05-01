@@ -1,5 +1,5 @@
 ---
-title: Boost Your Software Development Workflow with AI Tools: Insights and Tips
+title: How AI Tools Reignited My Passion for Coding
 date: 2023-04-24 17:07
 category: blog
 ---
