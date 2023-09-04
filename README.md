@@ -2,9 +2,9 @@
 
 My personal blog generated with [Pelican](https://docs.getpelican.com/en/latest/index.html)
 
-Deployed using Cloudflare (https://dash.cloudflare.com/login) 
+Deployed using Cloudflare (https://dash.cloudflare.com/login)
 
-Inspired by [Duarte Carmo](https://github.com/duarteocarmo/duarteocarmo.com) 
+Inspired by [Duarte Carmo](https://github.com/duarteocarmo/duarteocarmo.com)
 
 # Development Guide
 
@@ -17,7 +17,7 @@ Activate virtual environment
 
 Install requirements
 
-`pip install -r requirements.txt` 
+`pip install -r requirements.txt`
 
 ## Site generation
 
