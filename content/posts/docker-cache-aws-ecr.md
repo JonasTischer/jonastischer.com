@@ -157,11 +157,11 @@ Feel free to clone the [accompanying GitHub Repository](https://github.com/Jonas
 
 ### Additional Resources
 
-- https://dev.to/alexeversmeyer/cicd-github-actions-with-docker-and-amazon-ecr-nal
+- [https://dev.to/alexeversmeyer/cicd-github-actions-with-docker-and-amazon-ecr-nal](https://dev.to/alexeversmeyer/cicd-github-actions-with-docker-and-amazon-ecr-nal)
 
-- https://medium.com/@thiagosalvatore/using-terraform-to-connect-github-actions-and-aws-with-oidc-0e3d27f00123
+- [https://medium.com/@thiagosalvatore/using-terraform-to-connect-github-actions-and-aws-with-oidc-0e3d27f00123](https://medium.com/@thiagosalvatore/using-terraform-to-connect-github-actions-and-aws-with-oidc-0e3d27f0012)
 
-- https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services?source=post_page-----0e3d27f00123--------------------------------#adding-the-identity-provider-to-aws
+- [https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)
 
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html?source=post_page-----0e3d27f00123--------------------------------#idp_oidc_Create_GitHub
+- [https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html?source=post_page-----0e3d27f00123--------------------------------#idp_oidc_Create_GitHub](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html?source=post_page-----0e3d27f00123--------------------------------#idp_oidc_Create_GitHub)
 
