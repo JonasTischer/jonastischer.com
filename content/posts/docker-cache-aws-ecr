@@ -1,0 +1,167 @@
+---
+title: Efficient Docker Image Caching and Deployment with GitHub Actions and Amazon ECR
+date: 2024-05-12 21:39
+category: blog
+thumbnail: images/50/openai_2.png
+---
+
+## Introduction
+
+In this blog post, we'll explore how to leverage GitHub Actions to build and push Docker
+images to Amazon Elastic Container Registry (ECR), enabling efficient caching and deployment of
+your containerized applications.
+
+AWS ECR is a fully-managed Docker container registry that makes it easy to store,
+manage, and deploy Docker container images. By integrating GitHub Actions with ECR,
+you can automate the process of building, tagging, and pushing your Docker images,
+ensuring that your application deployments are streamlined and reliable.
+
+## Leveraging Remote Cache Support in Amazon ECR
+
+As mentioned in the [AWS blog post](https://aws.amazon.com/blogs/containers/announcing-remote-cache-support-in-amazon-ecr-for-buildkit-clients/), AWS has announced remote cache support in Amazon ECR for BuildKit clients. This feature allows you to store a remote build cache in Amazon ECR, which can be used to speed up your container builds.
+
+To take advantage of this feature, you can update your GitHub Actions workflow to use the `docker/build-push-action@v5` action, which includes support for the `cache-from` and `cache-to` options:
+
+### Introduction
+
+This tutorial will guide you through the process of setting up a GitHub Actions workflow to
+build Docker images, utilize remote caching, and deploy these images to Amazon Elastic Container
+Registry (ECR). By leveraging ECR's newly announced remote cache support, developers can significantly
+speed up the build process of Docker images in CI/CD pipelines.
+
+### Prerequisites
+
+Before beginning this tutorial, ensure you have the following:
+- An AWS Account.
+- Familiarity with Docker and GitHub Actions.
+- Basic knowledge of Terraform for infrastructure setup (optional but recommended).
+
+### Step 1: Set Up Your AWS Environment
+
+Firstly, you need to prepare your AWS environment to support the integration with GitHub Actions:
+
+#### Terraform Configuration
+If you are using Terraform, use the provided code snippet to create the necessary AWS resources, including the OIDC provider and ECR repository. Here's a brief on each block:
+
+- **OIDC Provider:** Establishes trust between GitHub and AWS, allowing your GitHub Actions workflows to assume an IAM role.
+- **IAM Role and Policy:** Grants the necessary permissions to push and pull images to and from ECR and manage the remote cache.
+
+Apply this configuration by running:
+```bash
+cd terraform
+terraform init
+terraform apply
+```
+
+Ensure you review and approve the resources that will be created.
+
+### Step 2: Configure GitHub Repository Secrets
+
+To securely interact with AWS from GitHub Actions, configure the following secrets in your GitHub repository:
+
+- `AWS_ACCOUNT_ID`: Your AWS Account ID.
+
+These credentials will be used by GitHub Actions to authenticate against AWS services.
+
+### Step 3: Create the GitHub Actions Workflow
+
+Create a `.github/workflows/docker-build.yml` file in your repository and define the workflow as follows:
+
+
+#### Workflow Definition
+
+
+```yaml
+name: Build and Push to ECR with Remote Cache
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  AWS_REGION: eu-central-1 # Replace with your desired AWS region
+  REPO_NAME: my-simple-app # Replace with your desired ecr repository name
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Git Clone the Repository
+        uses: actions/checkout@v3
+
+      - name: Configure AWS Credentials
+        id: configure-aws-credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GitHubAction-AssumeRoleWithAction
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Create and use a new builder instance
+        run: |
+          docker buildx create --name mybuilder --use
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        id: build-prod-backend-image
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.REPO_NAME }}:${{ github.sha }}
+          builder: mybuilder
+          cache-from: type=registry,ref=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.REPO_NAME }}:cache
+          cache-to: type=registry,mode=max,image-manifest=true,oci-mediatypes=true,ref=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.REPO_NAME }}:cache
+```
+
+In this updated workflow, we:
+
+1. Set up Docker Buildx, which is required for the remote cache feature.
+2. Create a new builder instance named `mybuilder` and use it for the build.
+3. Use the `docker/build-push-action@v5` action to build and push the Docker image.
+4. Specify the `cache-from` and `cache-to` options to leverage the remote cache in Amazon ECR.
+
+The `cache-from` option tells the builder to use the remote cache stored in the specified ECR repository, while the `cache-to` option instructs the builder to export the cache to the same ECR repository.
+
+By using this approach, your GitHub Actions workflow will benefit from faster build times, as the remote cache in Amazon ECR will be used to speed up the build process.
+
+
+For caching docker image in Github cache check:
+
+
+
+### Explanation of Key Steps
+
+- **AWS Credentials Configuration:** Securely configures AWS credentials using secrets stored in GitHub.
+- **ECR Login:** Authenticates to your AWS ECR to enable image push and pull.
+- **Docker Buildx Setup:** Initializes Buildx which is a Docker CLI plugin for extended build capabilities with BuildKit.
+- **Image Building and Pushing:** Builds the Docker image and pushes it to AWS ECR, utilizing caching to speed up subsequent builds.
+
+### Conclusion
+
+By following these steps, you've automated the process of building and deploying Docker images using GitHub Actions with caching to Amazon ECR. This setup not only simplifies the deployment process but also reduces build times significantly through the use of remote caches.
+
+For further reading on Docker image caching and GitHub Actions, explore the additional resources linked in this post. These resources provide deeper insights into CI/CD optimizations and advanced configurations.
+
+Feel free to clone the [accompanying GitHub Repository](https://github.com/JonasTischer/ecr-docker-remote-cache-tutorial) to see a working example of the configurations discussed in this tutorial.
+
+### Additional Resources
+
+- https://dev.to/alexeversmeyer/cicd-github-actions-with-docker-and-amazon-ecr-nal
+
+- https://medium.com/@thiagosalvatore/using-terraform-to-connect-github-actions-and-aws-with-oidc-0e3d27f00123
+
+- https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services?source=post_page-----0e3d27f00123--------------------------------#adding-the-identity-provider-to-aws
+
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html?source=post_page-----0e3d27f00123--------------------------------#idp_oidc_Create_GitHub
+
