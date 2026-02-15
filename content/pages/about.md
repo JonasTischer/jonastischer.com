@@ -5,16 +5,12 @@ slug: about
 <img style="width:90%;margin-top:-10px;filter: invert(var(--image-filtering));" src="{static}/images/logo-about-me.png" alt="logo.png">
 </center>
 
-Welcome to my personal blog! 
+Hi, I'm Jonas — an AI Engineer and Co-Founder based between Melbourne, Australia and Stuttgart, Germany.
 
-My name is Jonas and I am a technologist with a passion for exploring the intersection of Machine Learning, Data, Software Engineering, and People. Born and raised in Germany, I am currently living the digital nomad lifestyle and exploring different cultures.
+I build AI systems that genuinely partner with people rather than replace them. My work spans the full arc from enterprise ML platforms to real-time agentic AI: deploying AI at scale inside large organizations at [ThoughtWorks](https://www.thoughtworks.com/), building evaluation and compliance tooling at [Validaitor](https://validaitor.com/), improving clinical documentation quality at [Lyrebird Health](https://www.lyrebirdhealth.com/), and co-founding [Whispa](https://whispa.ai) — a real-time AI agent assist platform.
 
-I have a diverse background in software consulting, automotive, and startups, with a focus on helping companies harness the full potential of data and AI to build superior products. 
+I studied Business Informatics at the University of Mannheim (M.Sc.), spent a year at Beijing Foreign Studies University reaching fluency in Chinese, and was awarded the DAAD Post-Graduate Fellowship and a Fulbright Scholarship.
 
-My education and background have also greatly influenced my work, having studied at the University of Mannheim, National Chiao Tung University, and the Beijing Foreign Studies University.
+When I'm not building, you can find me [learning Chinese](/blog/my-journey-of-learning-chinese-a-reflection.html), hiking, or tinkering with AI agents.
 
-When I am not working, you can find me [learning Chinese](/blog/my-journey-of-learning-chinese-a-reflection.html), writing, reading, or hiking. 
-
-If you'd like to know more about my career, please check out my [LinkedIn](https://www.linkedin.com/in/jonastischer/) profile. 
-
-To get in touch, you can reach me at jonas.tischer@gmail.com. 
+**Get in touch:** [jonas.tischer@gmail.com](mailto:jonas.tischer@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jonastischer/) · [GitHub](https://github.com/JonasTischer)
